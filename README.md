@@ -102,11 +102,11 @@ Fill every cell before submission. Anyone cloning the repository must be able to
 |------|-------|
 | Backend base URL | http://localhost:3001 |
 | Frontend dev URL | http://localhost:5173 |
-| MySQL host | *(e.g. 127.0.0.1)* |
-| MySQL port | *(e.g. 3306)* |
-| Database name | |
-| Database user | |
-| Database password | |
+| MySQL host | 127.0.0.1 |
+| MySQL port | 3306 |
+| Database name | pokemon_spanbouer |
+| Database user | pokemon_app |
+| Database password | 71kXS3-rdvLC0S9AWhNF |
 
 ### Test account
 

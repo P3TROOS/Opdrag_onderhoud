@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
+//import { searchPokemon } from '../../../../../backend/src/services/pokeapi.service';
 
 /**
  * Search input — commits query to the URL (`?q=`) via the history API.
@@ -19,6 +20,12 @@ export function SearchForm() {
     const v = value.trim();
     if (v) {
       setSearchParams({ q: v });
+      // try {
+      //   const data = searchPokemon(v);
+      //   console.log('React ' + data);
+      // } catch (err) {
+      //   console.log(err.message);
+      // }
     } else {
       setSearchParams({});
     }
